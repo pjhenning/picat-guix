@@ -13,7 +13,7 @@
 (define-public picat
   (package
     (name "picat")
-    (version "2.8#6")
+    (version "2.8.6")
     (license mpl2.0)
     ;(supported-systems '("x86_64-linux" "aarch64-linux"))
     (supported-systems '("aarch64-linux"))

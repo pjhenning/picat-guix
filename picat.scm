@@ -13,15 +13,17 @@
 (define-public picat
   (package
     (name "picat")
-    (version "2.8")
+    (version "2.8#6")
     (license mpl2.0)
+    ;(supported-systems '("x86_64-linux" "aarch64-linux"))
+    (supported-systems '("aarch64-linux"))
     (source (origin
               (method url-fetch)
-              (uri (string-append "http://picat-lang.org/download/picat28_src.tar.gz"
+              (uri (string-append "http://picat-lang.org/download/picat28_6_src.tar.gz"
               ))
               (sha256
                 (base32 
-                  "02lyy8g42396qw6ajpzyq3qyagnad2r8i1imn10dnmh8azlgzn3r"
+                  "177j5hrv2jspqdqk1q9i155a5nkb8pxlkn0p8smmsr1346sa4rlk"
                 )
               )
     ))
